@@ -35,7 +35,7 @@ LearnerRegrRpart = R6Class("LearnerRegrRpart", inherit = LearnerRegr,
 
       super$initialize(
         id = "regr.rpart",
-        feature_types = c("logical", "integer", "numeric", "factor", "ordered"),
+        feature_types = c("logical", "integer", "integer64", "numeric", "factor", "ordered"),
         predict_types = "response",
         packages = "rpart",
         param_set = ps,
