@@ -80,7 +80,7 @@ local({
   )
 
   mlr_reflections$task_feature_types = c(
-    lgl = "logical", int = "integer", dbl = "numeric", chr = "character", fct = "factor", ord = "ordered", pxc = "POSIXct"
+    lgl = "logical", int = "integer", int64 = "integer64", dbl = "numeric", chr = "character", fct = "factor", ord = "ordered", pxc = "POSIXct"
   )
 
   mlr_reflections$task_row_roles = c(
